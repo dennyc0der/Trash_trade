@@ -12,7 +12,9 @@ player_h = 200
 player_xv = 0
 player_yv = 0
 
-player_speed = 1
+player_speed = 60
+
+dt = 0
 
 up = True
 down = True
@@ -33,3 +35,33 @@ number_trash = 0
 number_trash_player = 0
 trash_capacity = 10
 trash_capacity_player = 3
+
+trash_list = []
+player_inventory = []
+
+common_trash_price = 1
+uncommon_trash_price = 2
+rare_trash_price = 4
+
+player_take_timer = 0
+player_take_time = 4
+
+player_sell_timer = 0
+player_sell_time = 5
+
+trash = 0
+trash_timer = 1
+trash_time = 0
+
+trash_score_x = 0
+trash_score_y = 0
+
+money_player = 0
+money_text_true = False
+
+money_timer = 0
+money_time = 1
+
+skill_number = 0
+
+skill_limit = [1]
